@@ -1,0 +1,27 @@
+# Welcome to the example REST API
+GET http://localhost:4001
+###
+# GET all reports
+GET http://localhost:4001/reports
+lp3i-api-key: 7f141a32c01a251b
+###
+# GET download Excel
+GET http://localhost:4001/download
+###
+# POST report
+POST http://localhost:4001/
+Content-Type: application/json
+lp3i-api-key: 7f141a32c01a251b
+
+{
+  "name": "Lerian Febriana",
+  "title": "TelegramBOT",
+  "category": "ICT",
+  "message": "Lagi test telegram bot"
+}
+###
+# DELETE report by ID
+DELETE http://localhost:4001/2
+lp3i-api-key: 7f141a32c01a251b
+
+
