@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.get('/', async (req, res) => {
-  return res.send('LP3I Customer Care 🇮🇩');
+  return res.send('Customer Care Backend LP3I 🇮🇩');
 });
 
 app.get('/reports', verifyapikey, async (req, res) => {
