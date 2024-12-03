@@ -22,11 +22,11 @@ module.exports = {
         allowNull: true,
       },
       message: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
         allowNull: false,
       },
       reply: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
         allowNull: true,
       },
       status: {

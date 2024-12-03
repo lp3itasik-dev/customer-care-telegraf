@@ -17,8 +17,8 @@ module.exports = (sequelize, DataTypes) => {
     identity: DataTypes.STRING,
     title: DataTypes.STRING,
     category: DataTypes.STRING,
-    message: DataTypes.STRING,
-    reply: DataTypes.STRING,
+    message: DataTypes.TEXT,
+    reply: DataTypes.TEXT,
     status: DataTypes.BOOLEAN
   }, {
     sequelize,
